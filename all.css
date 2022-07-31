@@ -258,6 +258,9 @@ body {
   display: flex;
   gap: 16px;
 }
+.socialMedia a:hover img {
+  transform: scale(1.2);
+}
 
 /* about */
 .container-sm {
@@ -313,4 +316,7 @@ body {
 .contact a {
   color: #fff;
   /* text-decoration: none; */
+}
+.contact a:hover {
+  transform: scale(1.05);
 }
