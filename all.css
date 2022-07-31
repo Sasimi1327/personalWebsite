@@ -207,6 +207,9 @@ body {
 .text-center {
   text-align: center;
 }
+.text-left {
+  text-align: left;
+}
 .text-fff {
   color: #fff;
 }
@@ -240,14 +243,17 @@ body {
   font-weight: 900;
   margin-bottom: 32px;
 }
-.banner-text {
+/* banner-text 不需使用絕對定位排版，
+可直接在 .banner 這層使用 flex 來水平垂直置中 */
+
+/* .banner-text {
   text-align: left;
   color: #fff;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
+} */
 .socialMedia {
   display: flex;
   gap: 16px;
